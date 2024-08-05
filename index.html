@@ -6,47 +6,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>RouteX</title>
   <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous"
-    referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
 </head>
 
 <body>
-
-
   <header>
     <div class="content flex_space">
       <div class="logo">
-         <p style="color: rgb(147, 236, 14);font-size: 30px;">RouteX</p>
-              </div>
+        <p style="color: rgb(147, 236, 14); font-size: 30px;">RouteX</p>
+      </div>
       <div class="navlinks">
         <ul id="menulist">
-          <li><a href="#home">home</a> </li>
-          <li><a href="#about">about us</a> </li>
-          <li><a href="#rooms">story</a> </li>
-          <li><a href="#pages">visa</a> </li>
-          <li><a href="#news">blog</a> </li>
-          <li><a href="#news">page</a> </li>
-          <li><a href="#contact">contact</a> </li>
-          <li><a href="#contact"></a> </li>
-          <li><a href="#contact"></a> </li>
-          <li><a href="#contact"></a> </li>
-          <li><a href="#contact">need help?(307-555-0133)</a> </li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#rooms">Story</a></li>
+          <li><a href="#pages">Visa</a></li>
+          <li><a href="#news">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="tel:+13075550133">Need help? (307-555-0133)</a></li>
         </ul>
         <span class="fa fa-bars" onclick="menutoggle()"></span>
       </div>
     </div>
   </header>
 
-
   <script>
     var menulist = document.getElementById('menulist');
     menulist.style.maxHeight = "0px";
 
     function menutoggle() {
-      if (menulist.style.maxHeight == "0px") {
+      if (menulist.style.maxHeight === "0px") {
         menulist.style.maxHeight = "100vh";
       } else {
         menulist.style.maxHeight = "0px";
@@ -54,16 +45,14 @@
     }
   </script>
 
-
   <section class="home">
     <div class="content">
       <div class="owl-carousel owl-theme">
         <div class="item">
           <img src="/images/banner-1.png" alt="">
           <div class="text">
-            <h1>Journey with confidence <span style="color:rgb(81, 255, 0)" >migrate</span> with us</h1>
-            <p>Lorem ipsum dolor sit amet constur adipisicing elit sed do eiusmtem por incid.
-            </p>
+            <h1>Journey with confidence <span style="color:rgb(81, 255, 0)">migrate</span> with us</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             <div class="flex">
               <button class="primary-btn">LEARN MORE</button>
             </div>
@@ -73,147 +62,96 @@
     </div>
   </section>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"
-    referrerpolicy="no-referrer"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA==" crossorigin="anonymous"
-    referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script>
     $('.owl-carousel').owlCarousel({
       loop: true,
       margin: 0,
       nav: true,
       dots: false,
-      navText: ["<i class = 'fa fa-chevron-left'></i>", "<i class = 'fa fa-chevron-right'></i>"],
+      navText: ["<i class='fa fa-chevron-left'></i>", "<i class='fa fa-chevron-right'></i>"],
       responsive: {
-        0: {
-          items: 1
-        },
-        768: {
-          items: 1
-        },
-        1000: {
-          items: 1
-        }
+        0: { items: 1 },
+        768: { items: 1 },
+        1000: { items: 1 }
       }
-    })
+    });
   </script>
 
-
-
-
-  <!-- <section class="book">
-    <div class="container flex_space">
-      <div class="text">
-        <h1> <span>Book </span> Your Rooms </h1>
-      </div>
-      <div class="form">
-        <form class="grid">
-          <input type="date" placeholder="Araival Date">
-          <input type="date" placeholder="Departure Date">
-          <input type="number" placeholder="Adults">
-          <input type="number" placeholder="Childern">
-          <input type="submit" value="CHECK AVAILABILITY">
-        </form>
-      </div>
-    </div>
-  </section> -->
-
-
-
   <section class="about top">
-    <div  class="right">
-      <div class="heading">
-        <h2 >Unknown wanderlust your journey into </h2>
-      </div>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-      </p>
-    <button class="primary-btn">ABOUT US</button>
-      
-  </div>
+    <div class="container flex_space">
       <div class="left">
-        <div class="container flex">
-          <div class="card-container">
-            <div class="card">
-              <img src="Images/room-1.png" alt="">
-              <img src="Images/room-2.png" alt="">
-              <img src="Images/room-3.png" alt="">
-              <img src="Images/room-4.png" alt="">
-            </div>
-          </div>
+        <div class="heading">
+          <h2>Unknown wanderlust your journey into</h2>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        <button class="primary-btn">ABOUT US</button>
       </div>
-      </div>
-      
-  </section>
-
-  <section style="background-color: rgb(240, 233, 224);" class="rooms">
-    <div class="container top">
-      <div class="heading">
-        <h2>Adventure unleashed <br>Discover Your next</h2>
-        </p>
-      </div>
-
-      <div class="content mtop">
-        <div class="owl-carousel owl-carousel1 owl-theme">
-          <div class="items">
-            <div class="image">
-            </div>
-            <div style="background-color: white;" class="text">
-              <h2>food and wine tours</h2>             
-              <p>Lorem ipsum dolor sit amet constur adipisicing elit sed do eiusmtem por incid.
-              </p>
-              <div class="button flex">
-              </div>
-            </div>
+      <div class="right">
+        <div class="card-container">
+          <div class="card">
+            <img src="Images/room-1.png" alt="">
+            <img src="Images/room-2.png" alt="">
+            <img src="Images/room-3.png" alt="">
+            <img src="Images/room-4.png" alt="">
           </div>
-          <div class="items">
-            <div class="image">
-            </div>
-            <div style="background-color: white;" class="text">
-              <h2>travel oppertunities</h2>
-              <p>Lorem ipsum dolor sit amet constur adipisicing elit sed do eiusmtem por incid.
-              </p>
-            </div>
-          </div>
-          <div class="items">
-            <div style="background-color: white;" class="text">
-              <h2>solo travel planning</h2>
-              <p>Lorem ipsum dolor sit amet constur adipisicing elit sed do eiusmtem por incid.
-              </p>
-            </div>
-          </div>       
         </div>
       </div>
     </div>
   </section>
+
+  <section class="rooms" style="background-color: rgb(240, 233, 224);">
+    <div class="container top">
+      <div class="heading">
+        <h2>Adventure unleashed <br>Discover Your next</h2>
+      </div>
+      <div class="content mtop">
+        <div class="owl-carousel owl-carousel1 owl-theme">
+          <div class="items">
+            <div class="image"></div>
+            <div class="text" style="background-color: white;">
+              <h2>Food and Wine Tours</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed do eiusmtem por incid.</p>
+            </div>
+          </div>
+          <div class="items">
+            <div class="image"></div>
+            <div class="text" style="background-color: white;">
+              <h2>Travel Opportunities</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed do eiusmtem por incid.</p>
+            </div>
+          </div>
+          <div class="items">
+            <div class="text" style="background-color: white;">
+              <h2>Solo Travel Planning</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed do eiusmtem por incid.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <script>
     $('.owl-carousel1').owlCarousel({
       loop: true,
       margin: 40,
       nav: true,
       dots: false,
-      navText: ["<i class = 'fa fa-chevron-left'></i>", "<i class = 'fa fa-chevron-right'></i>"],
+      navText: ["<i class='fa fa-chevron-left'></i>", "<i class='fa fa-chevron-right'></i>"],
       responsive: {
-        0: {
-          items: 1
-        },
-        768: {
-          items: 2,
-          margin: 10,
-        },
-        1000: {
-          items: 3
-        }
+        0: { items: 1 },
+        768: { items: 2, margin: 10 },
+        1000: { items: 3 }
       }
-    })
+    });
   </script>
-
 
   <footer>
     <div class="container grid">
       <div class="box">
         <h1 style="color: greenyellow;">RouteX</h1>
-        <br>
-        <p>corporate business typically refers to large <br>mansola it enterprises or orgnizant</p>
+        <p>Corporate business typically refers to large enterprises or organizations.</p>
         <div class="icon">
           <i class="fa fa-facebook-f"></i>
           <i class="fa fa-instagram"></i>
@@ -221,39 +159,39 @@
           <i class="fa fa-youtube"></i>
         </div>
       </div>
-
       <div class="box">
-        <h2>service menu</h2><br>
+        <h2>Service Menu</h2>
         <ul>
-          <li>mistakes to avoid</li>
-          <li>your startup</li>
-          <li>Cknew about fonts</li>
-          <li>Cknew about fonts</li>
+          <li>Mistakes to Avoid</li>
+          <li>Your Mistakes</li>
+          <li>Our Mistakes</li>
+          <li>Their Mistakes</li>
         </ul>
       </div>
-
       <div class="box">
-        <h2>Usefull links</h2><br>
+        <h2>Quick Links</h2>
         <ul>
-          <li>latestnews</li>
-          <li>careers</li>
-          <li>general enquiries</li>
-          <li>case studies</li>
+          <li>My Account</li>
+          <li>Pricing</li>
+          <li>Testimonials</li>
+          <li>Refund Policy</li>
+        </ul>
+      </div>
+      <div class="box">
+        <h2>Contact Us</h2>
+        <ul>
+          <li>+123-456-789</li>
+          <li>example@mail.com</li>
+          <li>123, Street Name, City</li>
         </ul>
       </div>
     </div>
   </footer>
 
   <div class="legal">
-    <div>    <p class="container">Copyright (c) 2022 Copyright Holder All Rights Reserved.  </p>
-    </div>
-
+    <p>&copy; 2024 RouteX. Designed by m-coder.</p>
   </div>
-  
 
-
-
-  <script src="https://kit.fontawesome.com/032d11eac3.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
